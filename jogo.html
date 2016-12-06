@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Jogo da Velha">
+		<meta name="keyword" content="aula, html5, css, javascript">
+		<meta name="author" content="Diego Marques | maxbassoul@gmail.com">
+		
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<script type="text/javascript" src="js/gameLoop.js"></script>
+		
+		<title>Bronto's Games!</title>
+	</head>
+	<body>
+		<div name="tudo" class="tudo">
+			<header class="topo">
+				<div class="banner">
+					<img src="image/banner.png" alt="Paint's Arts'">
+				</div>   
+			</header>
+			<nav class="menuH">
+				<ul class="listaMenuH">
+					<li class="itemMenuH"><a href="curriculo.html" target="_self" title="Meu curriculo">Curriculo</a></li>
+					<li class="itemMenuH"><a href="Jogo.html" target="_self" title="Jogo da Velha">Jogo da Velha</a></li>
+					<li class="itemMenuH"><a href="formulario.html" target="_self" title="Contato">Contato</a></li>
+				</ul>
+			</nav>
+			<div name="conteudo" class="conteudo">
+				<div class="figDir">
+					<img src="image/velhaEsq.png" alt="Quer mais bolo meu fi?">
+				</div>
+					<div name="gameBox" class="boxJogo">
+						<form name="gameLoop" class="jogoVelha" method="post">
+							<input type="button" name="sqr1" class="jogo" onclick="rodada(this);">
+							<input type="button" name="sqr2" class="jogo" onclick="rodada(this);">
+							<input type="button" name="sqr3" class="jogo" onclick="rodada(this);">
+							<br>
+							<input type="button" name="sqr4" class="jogo" onclick="rodada(this);">
+							<input type="button" name="sqr5" class="jogo" onclick="rodada(this);">
+							<input type="button" name="sqr6" class="jogo" onclick="rodada(this);">
+							<br>
+							<input type="button" name="sqr7" class="jogo" onclick="rodada(this);">
+							<input type="button" name="sqr8" class="jogo" onclick="rodada(this);">
+							<input type="button" name="sqr9" class="jogo" onclick="rodada(this);">
+						</form>
+					</div>
+				<div class="figEsq">
+					<img src="image/velhaDir.jpg" alt="Quando seu pai era mais novo...">
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+		reset();
+		</script>
+	</body>
+	<footer class="rodape">
+		<p class="itemFoot"><a href="onde.html" target="_self" title="Veja o mapa de Metro City">Onde fica?</a></p> 
+		<p class="itemFoot"><a href="contato.html" target="_self" title="Nos envie uma menssagem">Contato</a></p> 
+	</footer>
+</html>

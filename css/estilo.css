@@ -1,0 +1,134 @@
+.topo{
+}
+.banner{
+	width: 1000px;
+	height: 150px;
+}
+/*BODY*/
+.conteudo{
+	width:994px;
+}
+.menuH{
+	width:994px;
+	float: left;
+	background-color:#FF853B;
+	border-style:solid solid dashed solid;
+}
+.listaMenuH{
+	list-style-type: none;
+	font-family: 'Oswald', sans-serif;
+	color:#1D2B7A;
+	width:547px;
+	margin-left: 0px;
+	margin-bottom: 85px;
+}
+.itemMenuH{
+	float:left;
+	text-align:center;
+	padding:10px;
+	margin:2px;
+	background-color:#5A8FFF;
+	border-style: solid;
+}
+.itemMenuH:hover{
+	background-color:#FF6859;
+	color:#95E8FF;
+}
+.itemMenuH a:link{
+	text-decoration:none;
+	color:#1D2B7A;
+	padding: 10px;
+}
+.itemMenuH a:hover{
+	color:#1D2B7A;
+	text-decoration:none;
+}
+.itemMenuH a:visited{
+	text-decoration:none;
+}
+.figEsq{
+	margin:0px;
+	width:340px;
+	height:340px;
+	float:left;
+}
+/* jogo*/
+
+.jogo{
+	float:left;
+	width:100px;
+	height:100px;
+	font-size:20px;
+	background-color: yellow;
+	font-weight: bold;
+}
+.boxJogo{
+	width:310px;
+	height:340px;
+	padding-top:18px;
+	margin:1px;
+	margin-right: 0px;
+	float:left;
+}
+.placar{
+	width:310px;
+	height:100px;
+	margin:0;
+	margin-bottom:1px;
+	background-color:#ff00bb;
+}
+.j1{
+	font-size:48px;
+	text-align:center;
+	float:left;
+	width:103px;
+	font-family:arial;
+	padding-top:15px;
+	color:#ffffff;
+}
+.jx{
+	text-align:center;
+	font-weight: bold;
+	font-size:48px;
+	float:left;
+	width:103px;
+	font-family:arial;
+	padding-top:15px;
+	color:#ffffff;
+}
+.j2{
+	font-size:48px;
+	text-align:center;
+	float:left;
+	width:103px;
+	font-family:arial;
+	padding-top:15px;
+	color:#ffffff;
+}
+.figDir{
+	float:left;
+	margin:1px;
+	width:340px;
+	height:340px;
+	float:left;
+}
+.rodape{
+	width:994px;
+	height:50px;
+	clear:both;
+	background-color:#85ADFF;
+	border-style:none solid solid solid;
+}
+.itemFoot{
+	font-style: italic;
+	margin: 5px;
+	margin-top: 17px;
+	float: right;
+}
+.messagem{
+	width:500px;
+	height:300px;
+}
+.formL{
+
+}
